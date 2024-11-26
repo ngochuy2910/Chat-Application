@@ -1,0 +1,10 @@
+-I
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug
+-I
+/home/huy/Qt/6.6.3/gcc_64/./qml
+--resource
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmake_Messenger.qrc
+--resource
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/appMessenger_raw_qml_0.qrc
+--module
+Messenger

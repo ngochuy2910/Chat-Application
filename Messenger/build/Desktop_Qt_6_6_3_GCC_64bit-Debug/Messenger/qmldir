@@ -1,0 +1,19 @@
+module Messenger
+typeinfo appMessenger.qmltypes
+prefer :/qt/qml/Messenger/
+Main 1.0 Main.qml
+MainWindow 1.0 MainWindow.qml
+ContactViews 1.0 Contacts/ContactViews.qml
+Background 1.0 Contacts/Components/Background.qml
+Header 1.0 Contacts/Components/Header.qml
+OpenedChatView 1.0 OpenedChat/OpenedChatView.qml
+ContactList 1.0 Contacts/Components/ContactList.qml
+ContactDelegate 1.0 Contacts/Components/ContactDelegate.qml
+ChatHeader 1.0 OpenedChat/Components/ChatHeader.qml
+ChatInput 1.0 OpenedChat/Components/ChatInput.qml
+IconButton 1.0 OpenedChat/Components/IconButton.qml
+Icon 1.0 OpenedChat/Components/Icon.qml
+ChatThread 1.0 OpenedChat/Components/ChatThread.qml
+ChatBubble 1.0 OpenedChat/Components/ChatBubble.qml
+LoginChat 1.0 LoginChat/LoginChat.qml
+

@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "Adaptor",
+            "object": true,
+            "qualifiedClassName": "Adaptor",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Adaptor.h",
+    "outputRevision": 68
+}

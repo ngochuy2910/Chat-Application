@@ -1,0 +1,109 @@
+{
+    "classes": [
+        {
+            "className": "TcpClient",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "sendMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "user",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "pwd",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "requestLogin",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "isLoginSuccess",
+                    "notify": "isLoginSuccessChanged",
+                    "read": "isLoginSuccess",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setIsLoginSuccess"
+                }
+            ],
+            "qualifiedClassName": "TcpClient",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "newMessage",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "isLogin",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "isLoginSuccessChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "onConnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QAbstractSocket::SocketError"
+                        }
+                    ],
+                    "name": "onErrorOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "onReadyRead",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "TcpClient.h",
+    "outputRevision": 68
+}

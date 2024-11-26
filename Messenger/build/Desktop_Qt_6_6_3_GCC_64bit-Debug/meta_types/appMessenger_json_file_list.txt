@@ -1,0 +1,6 @@
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appMessenger_autogen/include/../EWIEGA46WW/moc_Adaptor.cpp.json
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appMessenger_autogen/include/../EWIEGA46WW/moc_ChatModel.cpp.json
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appMessenger_autogen/include/../EWIEGA46WW/moc_PersonModel.cpp.json
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appMessenger_autogen/include/../EWIEGA46WW/moc_TcpClient.cpp.json
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appMessenger_autogen/include/../EWIEGA46WW/moc_TcpServer.cpp.json
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appMessenger_autogen/include/../EWIEGA46WW/moc_UserProfile.cpp.json

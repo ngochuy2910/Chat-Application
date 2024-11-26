@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "TcpServer",
+            "object": true,
+            "qualifiedClassName": "TcpServer",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "TcpServer.h",
+    "outputRevision": 68
+}

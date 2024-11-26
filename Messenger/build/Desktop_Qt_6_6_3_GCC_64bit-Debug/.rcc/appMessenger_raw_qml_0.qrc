@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="/qt/qml/Messenger/">
+    <file alias="Main.qml">/home/huy/Huy/Application/Messenger/Main.qml</file>
+    <file alias="MainWindow.qml">/home/huy/Huy/Application/Messenger/MainWindow.qml</file>
+    <file alias="Contacts/ContactViews.qml">/home/huy/Huy/Application/Messenger/Contacts/ContactViews.qml</file>
+    <file alias="Contacts/Components/Background.qml">/home/huy/Huy/Application/Messenger/Contacts/Components/Background.qml</file>
+    <file alias="Contacts/Components/Header.qml">/home/huy/Huy/Application/Messenger/Contacts/Components/Header.qml</file>
+    <file alias="OpenedChat/OpenedChatView.qml">/home/huy/Huy/Application/Messenger/OpenedChat/OpenedChatView.qml</file>
+    <file alias="Contacts/Components/ContactList.qml">/home/huy/Huy/Application/Messenger/Contacts/Components/ContactList.qml</file>
+    <file alias="Contacts/Components/ContactDelegate.qml">/home/huy/Huy/Application/Messenger/Contacts/Components/ContactDelegate.qml</file>
+    <file alias="OpenedChat/Components/ChatHeader.qml">/home/huy/Huy/Application/Messenger/OpenedChat/Components/ChatHeader.qml</file>
+    <file alias="OpenedChat/Components/ChatInput.qml">/home/huy/Huy/Application/Messenger/OpenedChat/Components/ChatInput.qml</file>
+    <file alias="OpenedChat/Components/IconButton.qml">/home/huy/Huy/Application/Messenger/OpenedChat/Components/IconButton.qml</file>
+    <file alias="OpenedChat/Components/Icon.qml">/home/huy/Huy/Application/Messenger/OpenedChat/Components/Icon.qml</file>
+    <file alias="OpenedChat/Components/ChatThread.qml">/home/huy/Huy/Application/Messenger/OpenedChat/Components/ChatThread.qml</file>
+    <file alias="OpenedChat/Components/ChatBubble.qml">/home/huy/Huy/Application/Messenger/OpenedChat/Components/ChatBubble.qml</file>
+    <file alias="LoginChat/LoginChat.qml">/home/huy/Huy/Application/Messenger/LoginChat/LoginChat.qml</file>
+    <file alias="Media/Images/background.png">/home/huy/Huy/Application/Messenger/Media/Images/background.png</file>
+    <file alias="Media/Images/avatar.jpg">/home/huy/Huy/Application/Messenger/Media/Images/avatar.jpg</file>
+    <file alias="svg/android.svg">/home/huy/Huy/Application/Messenger/svg/android.svg</file>
+    <file alias="svg/apple.svg">/home/huy/Huy/Application/Messenger/svg/apple.svg</file>
+    <file alias="svg/arrowLeft.svg">/home/huy/Huy/Application/Messenger/svg/arrowLeft.svg</file>
+    <file alias="svg/options.svg">/home/huy/Huy/Application/Messenger/svg/options.svg</file>
+    <file alias="svg/search.svg">/home/huy/Huy/Application/Messenger/svg/search.svg</file>
+    <file alias="svg/send.svg">/home/huy/Huy/Application/Messenger/svg/send.svg</file>
+    <file alias="Media/Images/hoangvi.jpg">/home/huy/Huy/Application/Messenger/Media/Images/hoangvi.jpg</file>
+  </qresource>
+</RCC>
+

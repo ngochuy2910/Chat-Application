@@ -1,0 +1,127 @@
+{
+    "classes": [
+        {
+            "className": "PersonModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "clickChat",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msg",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "sendMsg",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "currentChat",
+                    "notify": "currentChatChanged",
+                    "read": "currentChat",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "ChatModel*",
+                    "user": false,
+                    "write": "setCurrentChat"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "currentAvatar",
+                    "notify": "currentAvatarChanged",
+                    "read": "currentAvatar",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "currentName",
+                    "notify": "currentNameChanged",
+                    "read": "currentName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "PersonModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "currentChatChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "currentAvatarChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "currentNameChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msg",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "receiveNewMsg",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "user",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "handleUserActive",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "PersonModel.h",
+    "outputRevision": 68
+}

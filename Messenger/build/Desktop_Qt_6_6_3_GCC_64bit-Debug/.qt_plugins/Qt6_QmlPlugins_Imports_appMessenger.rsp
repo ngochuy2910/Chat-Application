@@ -1,0 +1,14 @@
+-rootPath
+/home/huy/Huy/Application/Messenger
+-cmake-output
+-output-file
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appMessenger.cmake
+-importPath
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/Messenger
+-importPath
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug
+-importPath
+/home/huy/Qt/6.6.3/gcc_64/./qml
+-qrcFiles
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmake_Messenger.qrc
+/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/appMessenger_raw_qml_0.qrc

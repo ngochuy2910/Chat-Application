@@ -1,0 +1,128 @@
+[
+    {
+        "avatar": "../../Media/Images/avatar.jpg",
+        "chatThread": [
+            {
+                "content": "I luv u",
+                "isSender": true
+            },
+            {
+                "content": "I luv u",
+                "isSender": true
+            },
+            {
+                "content": "I luv u",
+                "isSender": true
+            },
+            {
+                "content": "Hellooooooooo",
+                "isSender": false
+            },
+            {
+                "content": "Messsage",
+                "isSender": false
+            },
+            {
+                "content": "huyyyyyyyy",
+                "isSender": false
+            },
+            {
+                "content": "hi em",
+                "isSender": true
+            },
+            {
+                "content": "em di ngu chuwa",
+                "isSender": true
+            },
+            {
+                "content": "em di ngu roi a",
+                "isSender": false
+            },
+            {
+                "content": "anh ngu chuwa",
+                "isSender": false
+            },
+            {
+                "content": "halllo",
+                "isSender": false
+            },
+            {
+                "content": "sgfisdf",
+                "isSender": true
+            },
+            {
+                "content": "sdfbhsg",
+                "isSender": true
+            },
+            {
+                "content": "sdfsdjfj",
+                "isSender": false
+            },
+            {
+                "content": "halo",
+                "isSender": true
+            },
+            {
+                "content": "hihi",
+                "isSender": false
+            },
+            {
+                "content": "wdwd",
+                "isSender": true
+            },
+            {
+                "content": "sdfdsf",
+                "isSender": false
+            },
+            {
+                "content": "assssssssssssssssssss",
+                "isSender": true
+            },
+            {
+                "content": "ffffffffffffffffffff",
+                "isSender": false
+            },
+            {
+                "content": "hallllo",
+                "isSender": true
+            },
+            {
+                "content": "adfsdf",
+                "isSender": false
+            },
+            {
+                "content": "aaaaaaaaaaaaaaaaaaa",
+                "isSender": true
+            },
+            {
+                "content": "ffffffffffffffffff",
+                "isSender": false
+            },
+            {
+                "content": "sdgfj",
+                "isSender": false
+            },
+            {
+                "content": "fdsf",
+                "isSender": true
+            },
+            {
+                "content": "sdfsd",
+                "isSender": false
+            },
+            {
+                "content": "sdfsdg",
+                "isSender": true
+            },
+            {
+                "content": "hjkg",
+                "isSender": true
+            },
+            {
+                "content": "dh",
+                "isSender": true
+            }
+        ],
+        "name": "Ngoc Huy"
+    }
+]

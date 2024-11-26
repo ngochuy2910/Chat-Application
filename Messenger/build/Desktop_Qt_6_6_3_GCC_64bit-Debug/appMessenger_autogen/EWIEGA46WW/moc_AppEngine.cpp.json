@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "AppEngine",
+            "object": true,
+            "qualifiedClassName": "AppEngine",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "AppEngine.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,1659 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "appMessenger"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"set_property",
+			"_qt_internal_find_third_party_dependencies",
+			"add_dependencies",
+			"qt6_target_qml_sources",
+			"_qt_internal_scan_qml_imports",
+			"_qt_internal_generate_deploy_qml_imports_script",
+			"cmake_language",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"_qt_internal_target_enable_qmlcachegen",
+			"_qt_internal_expose_deferred_files_to_ide"
+		],
+		"files" : 
+		[
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
+			"/home/huy/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/home/huy/Qt/Tools/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/home/huy/Qt/6.6.3/gcc_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:742:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 818,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 575,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 629,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 164,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 52,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 717,
+				"parent" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 392,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 40,
+				"parent" : 10
+			},
+			{
+				"file" : 12,
+				"parent" : 17
+			},
+			{
+				"command" : 12,
+				"file" : 12,
+				"line" : 39,
+				"parent" : 18
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 20
+			},
+			{
+				"file" : 11,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 41,
+				"parent" : 22
+			},
+			{
+				"file" : 10,
+				"parent" : 23
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 39,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 25
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 26
+			},
+			{
+				"file" : 7,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 57,
+				"parent" : 28
+			},
+			{
+				"file" : 6,
+				"parent" : 29
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 61,
+				"parent" : 30
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 32
+			},
+			{
+				"file" : 14,
+				"parent" : 33
+			},
+			{
+				"command" : 7,
+				"file" : 14,
+				"line" : 57,
+				"parent" : 34
+			},
+			{
+				"file" : 13,
+				"parent" : 35
+			},
+			{
+				"command" : 6,
+				"file" : 13,
+				"line" : 61,
+				"parent" : 36
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 38
+			},
+			{
+				"file" : 16,
+				"parent" : 39
+			},
+			{
+				"command" : 7,
+				"file" : 16,
+				"line" : 57,
+				"parent" : 40
+			},
+			{
+				"file" : 15,
+				"parent" : 41
+			},
+			{
+				"command" : 6,
+				"file" : 15,
+				"line" : 61,
+				"parent" : 42
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 576,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 16,
+				"line" : 40,
+				"parent" : 40
+			},
+			{
+				"file" : 19,
+				"parent" : 45
+			},
+			{
+				"command" : 14,
+				"file" : 19,
+				"line" : 30,
+				"parent" : 46
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 36,
+				"parent" : 47
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 48
+			},
+			{
+				"file" : 18,
+				"parent" : 49
+			},
+			{
+				"command" : 8,
+				"file" : 18,
+				"line" : 13,
+				"parent" : 50
+			},
+			{
+				"file" : 17,
+				"parent" : 51
+			},
+			{
+				"command" : 13,
+				"file" : 17,
+				"line" : 712,
+				"parent" : 52
+			},
+			{
+				"command" : 6,
+				"file" : 17,
+				"line" : 710,
+				"parent" : 52
+			},
+			{
+				"command" : 16,
+				"file" : 5,
+				"line" : 633,
+				"parent" : 15
+			},
+			{
+				"command" : 15,
+				"file" : 5,
+				"line" : 2444,
+				"parent" : 55
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 21,
+				"file" : 20,
+				"line" : 1,
+				"parent" : 57
+			},
+			{
+				"command" : 20,
+				"file" : 0,
+				"line" : 772,
+				"parent" : 58
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 678,
+				"parent" : 59
+			},
+			{
+				"command" : 18,
+				"file" : 0,
+				"line" : 678,
+				"parent" : 60
+			},
+			{
+				"command" : 17,
+				"file" : 5,
+				"line" : 3125,
+				"parent" : 61
+			},
+			{
+				"command" : 15,
+				"file" : 5,
+				"line" : 2977,
+				"parent" : 62
+			},
+			{
+				"command" : 23,
+				"file" : 5,
+				"line" : 540,
+				"parent" : 15
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2755,
+				"parent" : 64
+			},
+			{
+				"command" : 22,
+				"file" : 5,
+				"line" : 2780,
+				"parent" : 64
+			},
+			{
+				"command" : 25,
+				"file" : 5,
+				"line" : 2585,
+				"parent" : 64
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 1213,
+				"parent" : 67
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2746,
+				"parent" : 64
+			},
+			{
+				"command" : 28,
+				"file" : 5,
+				"line" : 584,
+				"parent" : 15
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 70
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2153,
+				"parent" : 71
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 1797,
+				"parent" : 72
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 623,
+				"parent" : 15
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 29,
+				"file" : 5,
+				"line" : 2331,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 1152,
+				"parent" : 76
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2227,
+				"parent" : 55
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2380,
+				"parent" : 55
+			},
+			{
+				"command" : 28,
+				"file" : 5,
+				"line" : 2463,
+				"parent" : 55
+			},
+			{
+				"command" : 27,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 107
+			},
+			{
+				"command" : 26,
+				"file" : 0,
+				"line" : 2153,
+				"parent" : 108
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 1797,
+				"parent" : 109
+			},
+			{
+				"command" : 30,
+				"file" : 0,
+				"line" : 767,
+				"parent" : 58
+			},
+			{
+				"command" : 24,
+				"file" : 0,
+				"line" : 1881,
+				"parent" : 111
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 44,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 44,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICK_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appMessenger_autogen/include"
+				},
+				{
+					"backtrace" : 65,
+					"path" : "/home/huy/Huy/Application/Messenger"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtQml/6.6.3"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtQml/6.6.3/QtQml"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtCore/6.6.3"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtCore/6.6.3/QtCore"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtQml"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 66,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/huy/Qt/6.6.3/gcc_64/include/QtOpenGL"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					44
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				50
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 56,
+			"id" : "appMessenger_tooling::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 63,
+			"id" : "appMessenger_qmlimportscan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "appMessenger_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "appMessenger_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "appMessenger::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-DQT_QML_DEBUG -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/huy/Qt/6.6.3/gcc_64/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/huy/Qt/6.6.3/gcc_64/lib/libQt6Quick.so.6.6.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/home/huy/Qt/6.6.3/gcc_64/lib/libQt6QmlModels.so.6.6.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/home/huy/Qt/6.6.3/gcc_64/lib/libQt6Qml.so.6.6.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/home/huy/Qt/6.6.3/gcc_64/lib/libQt6Network.so.6.6.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "/home/huy/Qt/6.6.3/gcc_64/lib/libQt6OpenGL.so.6.6.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 43,
+				"fragment" : "/home/huy/Qt/6.6.3/gcc_64/lib/libQt6Gui.so.6.6.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "/home/huy/Qt/6.6.3/gcc_64/lib/libQt6Core.so.6.6.3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 53,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGLX.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libOpenGL.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "appMessenger",
+	"nameOnDisk" : "appMessenger",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				3,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				50
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2,
+				19,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				51,
+				52,
+				53,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				63,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				54,
+				55,
+				62
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appMessenger_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/meta_types/qt6appmessenger_debug_metatypes.json.gen",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 69,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appmessenger_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 73,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_qmake_Messenger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "ChatModel.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "ChatModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "PersonModel.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "PersonModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "Person.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "Person.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "TcpServer.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "TcpServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "TcpClient.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "TcpClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "UserProfile.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "UserProfile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "AppEngine.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "AppEngine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 75,
+			"path" : "Main.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 78,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Main_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 79,
+			"path" : "MainWindow.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_MainWindow_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"path" : "Contacts/ContactViews.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 82,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Contacts/ContactViews_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "Contacts/Components/Background.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 84,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Contacts/Components/Background_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 85,
+			"path" : "Contacts/Components/Header.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 86,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Contacts/Components/Header_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 87,
+			"path" : "OpenedChat/OpenedChatView.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 88,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/OpenedChatView_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 89,
+			"path" : "Contacts/Components/ContactList.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 90,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Contacts/Components/ContactList_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 91,
+			"path" : "Contacts/Components/ContactDelegate.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 92,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Contacts/Components/ContactDelegate_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 93,
+			"path" : "OpenedChat/Components/ChatHeader.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 94,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/ChatHeader_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 95,
+			"path" : "OpenedChat/Components/ChatInput.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 96,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/ChatInput_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 97,
+			"path" : "OpenedChat/Components/IconButton.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 98,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/IconButton_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 99,
+			"path" : "OpenedChat/Components/Icon.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 100,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/Icon_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 101,
+			"path" : "OpenedChat/Components/ChatThread.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 102,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/ChatThread_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 103,
+			"path" : "OpenedChat/Components/ChatBubble.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 104,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/ChatBubble_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 105,
+			"path" : "LoginChat/LoginChat.qml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 106,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_LoginChat/LoginChat_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 110,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_appMessenger_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 112,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmake_Messenger.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/Messenger/qmldir",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/appMessenger_raw_qml_0.qrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"path" : "Media/Images/background.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 112,
+			"path" : "Media/Images/avatar.jpg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 112,
+			"path" : "svg/android.svg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"path" : "svg/apple.svg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"path" : "svg/arrowLeft.svg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"path" : "svg/options.svg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"path" : "svg/search.svg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"path" : "svg/send.svg",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 112,
+			"path" : "Media/Images/hoangvi.jpg",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appMessenger_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/meta_types/qt6appmessenger_debug_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appmessenger_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_qmake_Messenger.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_MainWindow_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Contacts/ContactViews_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Contacts/Components/Background_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Contacts/Components/Header_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/OpenedChatView_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Contacts/Components/ContactList_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_Contacts/Components/ContactDelegate_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/ChatHeader_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/ChatInput_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/IconButton_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/Icon_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/ChatThread_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_OpenedChat/Components/ChatBubble_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qmlcache/appMessenger_LoginChat/LoginChat_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/.rcc/qrc_appMessenger_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/appMessenger_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_6_3_GCC_64bit-Debug/meta_types/appMessenger_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 44,
+			"path" : "/home/huy/Qt/6.6.3/gcc_64/metatypes/qt6core_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"path" : "/home/huy/Qt/6.6.3/gcc_64/metatypes/qt6qml_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 16,
+			"path" : "/home/huy/Qt/6.6.3/gcc_64/metatypes/qt6network_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/huy/Qt/6.6.3/gcc_64/metatypes/qt6quick_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/huy/Qt/6.6.3/gcc_64/metatypes/qt6gui_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/huy/Qt/6.6.3/gcc_64/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/huy/Qt/6.6.3/gcc_64/metatypes/qt6opengl_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

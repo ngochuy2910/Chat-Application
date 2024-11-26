@@ -1,0 +1,66 @@
+{
+    "classes": [
+        {
+            "className": "UserProfile",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "user",
+                    "notify": "userChanged",
+                    "read": "user",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setUser"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 1,
+                    "name": "nickname",
+                    "notify": "nicknameChanged",
+                    "read": "nickname",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setNickname"
+                }
+            ],
+            "qualifiedClassName": "UserProfile",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "userChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "nicknameChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "UserProfile.h",
+    "outputRevision": 68
+}

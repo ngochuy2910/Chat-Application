@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Messenger">
+    <file alias="qmldir">/home/huy/Huy/Application/Messenger/build/Desktop_Qt_6_6_3_GCC_64bit-Debug/Messenger/qmldir</file>
+  </qresource>
+</RCC>
+

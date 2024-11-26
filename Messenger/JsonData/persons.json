@@ -1,0 +1,96 @@
+[
+    {
+        "avatar": "../../Media/Images/hoangvi.jpg",
+        "chatThread": [
+            {
+                "content": "I luv u",
+                "isSender": true
+            },
+            {
+                "content": "I luv u",
+                "isSender": true
+            },
+            {
+                "content": "hello",
+                "isSender": false
+            },
+            {
+                "content": "hi",
+                "isSender": false
+            },
+            {
+                "content": "::ffff:127.0.0.1:43556: hi",
+                "isSender": true
+            },
+            {
+                "content": "hihihi",
+                "isSender": true
+            },
+            {
+                "content": "xin chao",
+                "isSender": false
+            },
+            {
+                "content": "::ffff:127.0.0.1:56678: em day a",
+                "isSender": true
+            },
+            {
+                "content": "hello\n",
+                "isSender": false
+            },
+            {
+                "content": "I'm there",
+                "isSender": true
+            },
+            {
+                "content": "hello",
+                "isSender": true
+            },
+            {
+                "content": "anh dang o dau the",
+                "isSender": false
+            },
+            {
+                "content": "anh dang o phong em",
+                "isSender": true
+            },
+            {
+                "content": "em co thay j dau\n",
+                "isSender": false
+            },
+            {
+                "content": "huyy\n\n\n\n",
+                "isSender": true
+            },
+            {
+                "content": "hello",
+                "isSender": true
+            },
+            {
+                "content": "ascakbcui",
+                "isSender": true
+            },
+            {
+                "content": "hi em",
+                "isSender": false
+            },
+            {
+                "content": "em day a",
+                "isSender": true
+            },
+            {
+                "content": "anh di ngu chua",
+                "isSender": true
+            },
+            {
+                "content": "anh chua ngu ",
+                "isSender": false
+            },
+            {
+                "content": "hellu",
+                "isSender": true
+            }
+        ],
+        "name": "Em yeu"
+    }
+]

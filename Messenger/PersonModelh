@@ -1,0 +1,15 @@
+#ifndef PERSONMODELH
+#define PERSONMODELH
+
+#include <QObject>
+
+class PersonModel : public QObject
+{
+    Q_OBJECT
+public:
+    explicit PersonModel(QObject *parent = nullptr);
+
+signals:
+};
+
+#endif // PERSONMODELH

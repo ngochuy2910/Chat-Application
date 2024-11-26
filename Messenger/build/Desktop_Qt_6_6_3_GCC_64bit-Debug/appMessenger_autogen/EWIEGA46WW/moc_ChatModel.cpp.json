@@ -1,0 +1,57 @@
+{
+    "classes": [
+        {
+            "className": "ChatModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "chat",
+                            "type": "Chat"
+                        }
+                    ],
+                    "name": "appendChat",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msg",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "isSender",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "appendChat",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "msg",
+                            "type": "QString"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "appendChat",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "ChatModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ChatModel.h",
+    "outputRevision": 68
+}
